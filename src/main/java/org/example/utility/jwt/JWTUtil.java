@@ -1,10 +1,10 @@
 package org.example.utility.jwt;
 
-import com.christ.utility.lib.vault.VaultUtils;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
+import org.example.utility.vault.VaultUtils;
 
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;

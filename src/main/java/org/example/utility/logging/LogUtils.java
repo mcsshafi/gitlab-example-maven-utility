@@ -6,10 +6,10 @@ import ch.qos.logback.classic.LoggerContext;
 import ch.qos.logback.contrib.jackson.JacksonJsonFormatter;
 import ch.qos.logback.contrib.json.classic.JsonLayout;
 import ch.qos.logback.core.CoreConstants;
-import com.christ.utility.lib.vault.VaultUtils;
 import com.google.gson.Gson;
 import com.internetitem.logback.elasticsearch.ElasticsearchAppender;
 import com.internetitem.logback.elasticsearch.config.*;
+import org.example.utility.vault.VaultUtils;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
 

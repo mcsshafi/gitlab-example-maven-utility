@@ -1,6 +1,6 @@
 package org.example.utility.caching;
 
-import com.christ.utility.lib.vault.VaultUtils;
+import org.example.utility.vault.VaultUtils;
 import org.redisson.Redisson;
 import org.redisson.api.RMap;
 import org.redisson.api.RSet;

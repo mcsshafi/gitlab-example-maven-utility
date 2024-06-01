@@ -1,9 +1,9 @@
 package org.example.utility.vault;
 
-import com.christ.utility.lib.AppProperties;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+import org.example.utility.AppProperties;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
